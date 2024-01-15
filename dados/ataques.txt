@@ -1,0 +1,19 @@
+1,Uzumaki,478.5,110.0
+2,Roxo,324.0,123.0
+3,Rika,435.2,100.0
+4,Cocusem,195.2,100.0
+2,Vermelho,200.0,63.0
+2,Azul,124.0,78.0
+2,Expansão de Dominio: Muryocusho,500.0,230.0
+6,Soco,100.0,12.0
+6,Cocusem,215.9,50.0
+1,Maldição de Grau 2,225.3,60.0
+1,Maldição de grau 4,132.0,40.0
+1,Maldição de grau 3,189.8,74.2
+1,Maldição de grau Especial,457.9,102.0
+4,Tecnica Inata 3/7,325.9,120.0
+4,Soco,93.9,20.0
+5,Soco ,125.0,23.0
+5,Ataque com Faca,212.0,100.0
+5,Ataque com uma corrente,312.0,120.0
+5,Ataque com espada,243.0,200.0
