@@ -1,12 +1,13 @@
-1,Uzumaki,478.5,110.0
+1,Uzumaki,478.5,410.0
 2,Roxo,324.0,123.0
 3,Rika,435.2,100.0
 4,Cocusem,195.2,100.0
 2,Vermelho,200.0,63.0
 2,Azul,124.0,78.0
-2,Expansão de Dominio: Muryocusho,500.0,230.0
+2,Expansão de Dominio: Muryocusho,600.0,600.0
 6,Soco,100.0,12.0
-6,Cocusem,215.9,50.0
+6,Cocusem,215.9,180.0
+6,Punho Divergente,358.3,305.0
 1,Maldição de Grau 2,225.3,60.0
 1,Maldição de grau 4,132.0,40.0
 1,Maldição de grau 3,189.8,74.2
@@ -17,3 +18,56 @@
 5,Ataque com Faca,212.0,100.0
 5,Ataque com uma corrente,312.0,120.0
 5,Ataque com espada,243.0,200.0
+3,Rika: fala amaldiçoada palavra...Morra!,325.9,200.0
+3,Ataque com a katana,108.9,23.0
+3,Ataque com a Katana embuida com energia amaldiçoada,200.4,100.0
+3,Soco,80.0,12.0
+7,Shikigamis: Lobos,229.3,85.9
+7,Shikigamis: Elefante,300.0,230.0
+7,Shikigamis: Nue,342.8,224.0
+7,Shikigamis: sapos,152.9,50.0
+7,Shikigamis: coelhos,125.0,80.0
+7,Soco,70.0,40.0
+7,Expansão de Dominio incompleta: Jardim das sombras,425.8,400.0
+8,tesdes,20.0,11.0
+8,Teste,100.0,11.0
+6,Soco embuido com energia amaldiçoada,198.5,60.0
+9,chicote,302.2,200.0
+9,impacto,423.5,100.0
+9,espinhos ,198.2,50.0
+7,Shikigamis: Mahoraga,749.4,700.0
+6,chute com energia amaldiçoada,245.9,150.0
+10,Resonância,300.0,100.0
+10,Martelada,125.2,89.0
+10,Pregos embuidos com energia amaldiçoada,183.8,92.8
+11,Xero,2000.0,122.0
+11,Super Xero,212.0,12.0
+1,Maldição de nivel 1: chicote,302.2,200.0
+1,Maldição de nivel 1: impacto,423.5,300.0
+1,Maldição de nivel 1: espinhos ,198.2,100.0
+3,Ratio Technique: Cocusem,195.2,100.0
+3,Manipulação de Energia Amaldiçoada: Soco embuido com energia amaldiçoada,198.5,60.0
+3,Boneco de palha: Resonância,300.0,100.0
+3,Dez sombras: Shikigamis: Mahoraga,749.4,700.0
+12,chamas,120.0,20.0
+13,floral,123.0,12.0
+13,Revolta da mãe natureza,223.0,30.0
+1,Maldição de nivel 3: floral,123.0,12.0
+1,Maldição de nivel 3: Revolta da mãe natureza,223.0,100.0
+14,braçoMartelo,100.0,50.0
+15,Chamas,50.0,4.0
+16,espinhos,68.0,8.0
+14,Expansão de Dominio: Auto-Personificação da Perfeição,483.0,400.0
+14,Transfiguração-besta,103.0,50.0
+15,Expansão de Dominio: Caixão da Montanha de Ferro,458.0,432.0
+15,Flecha de Fogo,148.0,20.0
+15,Explosão,234.0,100.0
+17,puch,200.0,140.0
+17,Expansão de Dominio: caixão,429.0,400.0
+17,agarrar,120.0,100.0
+1,Maldição de nivel Especial: puch,200.0,140.0
+1,Maldição de nivel Especial: Expansão de Dominio: caixão,429.0,400.0
+1,Maldição de nivel Especial: agarrar,120.0,100.0
+1,Uzumaki da Maldição de nivel Especial,749.8,650.0
+14,Pessoas transfiguradas,323.9,230.8
+14,Pessoa transfigurada,400.0,334.8

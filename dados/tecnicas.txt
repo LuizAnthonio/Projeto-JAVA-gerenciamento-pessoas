@@ -1,0 +1,18 @@
+0,nada
+1,Ilimitado seis olhos
+2,Copia
+3,Absorção de espiritos almadiçoados
+4,Boneco de palha
+5,Dez sombras
+6,Manipulação de sangue
+7,Fala amaldiçoada
+8,Boogie Woogie
+9,Fogo
+10,Natureza
+11,Gravidade
+12,Ratio Technique
+13,Manipulação de Energia Amaldiçoada
+14,Transfiguração da alma
+15,Água
+16,Variola
+17,Corte

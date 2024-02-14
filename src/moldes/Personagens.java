@@ -12,32 +12,51 @@ public class Personagens {
     private String nome;
     private int nivel;
 
-    ArrayList<Ataques> habilidades = new ArrayList<>();
-
+    List<Ataques> habilidades = new ArrayList<>();
 
     private double energia;
 
     private double xp;
 
+    private double forca;
+
+    private double resistencia;
+
+    private double velocidade;
+
+    private int tipo;
+
+    private int tecnica;
+
     //construct
-    public Personagens(String nome, int nivel, double energia, double xp) {
+    public Personagens(String nome, int nivel, double energia, double xp,double forca, double resistencia,double velocidade,int tipo,int tecnica) {
 
         this.id = proximoId++;
         setEnergia(energia);
         setNivel(nivel);
         setNome(nome);
         setXp(xp);
+        setTipo(tipo);
+        setForca(forca);
+        setVelocidade(velocidade);
+        setResistencia(resistencia);
+        setTecnica(tecnica);
         //habilidades.add(new Ataques(nomeAtq,dano,custo));
 
 
     }
-    public Personagens(int id, String nome, int nivel, double energia, double xp) {
+    public Personagens(int id, String nome, int nivel, double energia, double xp,double forca, double resistencia,double velocidade,int tipo, int tecnica) {
 
         this.id = id;
         setEnergia(energia);
         setNivel(nivel);
         setNome(nome);
         setXp(xp);
+        setTipo(tipo);
+        setForca(forca);
+        setVelocidade(velocidade);
+        setResistencia(resistencia);
+        setTecnica(tecnica);
         //habilidades.add(new Ataques(nomeAtq,dano,custo));
 
 
@@ -45,8 +64,32 @@ public class Personagens {
 
     //GETERS
     public String getNome() {
+
         return nome;
     }
+
+    public int getTecnica() {
+        return tecnica;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+
+    public double getForca() {
+        return forca;
+    }
+
+    public double getResistencia() {
+        return resistencia;
+    }
+
+    public double getVelocidade() {
+        return velocidade;
+    }
+
+
 
     public int getNivel(){
         return nivel;
@@ -65,12 +108,12 @@ public class Personagens {
         return xp;
     }
 
-    public ArrayList<Ataques> getHabilidades() {
+    public List<Ataques> getHabilidades() {
         return habilidades;
     }
 
     //SETERS
-    public void setHabilidades(ArrayList<Ataques> hab) {
+    public void setHabilidades(List<Ataques> hab) {
         //return habilidades;
         this.habilidades = hab;
     }
@@ -100,6 +143,28 @@ public class Personagens {
        setXp(novo);
 
     }
+
+    public void setForca(double forca) {
+        this.forca = forca;
+    }
+
+    public void setResistencia(double resistencia) {
+        this.resistencia = resistencia;
+    }
+
+    public void setTecnica(int tecnica) {
+        this.tecnica = tecnica;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setVelocidade(double velocidade) {
+        this.velocidade = velocidade;
+    }
+
+
 
 
 }

@@ -1,0 +1,206 @@
+if (p1.getNivel() < p2.getNivel()){
+
+                        int diferencaNIvel = p2.getNivel() - p1.getNivel();
+                        double novosPontos;
+                        double adquiridos;
+
+                        if (diferencaNIvel < 0){
+
+                            adquiridos = 12 * 200.0;
+
+                        }else {
+
+                            adquiridos = diferencaNIvel * 200.0;
+
+                        }
+
+                        novosPontos = adquiridos + p2.getXp();
+
+                       // p2.setXp(novosPontos);
+
+                        int novoNivel;
+
+                        String pont = Double.toString(novosPontos);
+                        //add pontos
+                        crud.editarLinha("arquivo2",p2.getId(),4,pont);
+
+                        //mudar de nivel com base nos pontos
+                        if(novosPontos >= 2000.0 && p2.getNivel() == 4){
+                            novoNivel = p2.getNivel() - 1;
+
+                            crud.editarLinha("arquivo2",p2.getId(),2,Integer.toString(novoNivel));
+
+                            System.out.println("Pontos adquiritos: "+adquiridos);
+                            System.out.println("Total de pontos: "+novosPontos);
+                            System.out.println("Parabenss!!");
+                            System.out.println("Novo Nivel: "+novoNivel);
+
+
+
+                        }else if (novosPontos >= 6000.0 && p2.getNivel() == 3){
+                            novoNivel = p2.getNivel() - 1;
+                            crud.editarLinha("arquivo2",p2.getId(),2,Integer.toString(novoNivel));
+
+
+                            System.out.println("Pontos adquiritos: "+adquiridos);
+                            System.out.println("Total de pontos: "+novosPontos);
+                            System.out.println("Parabenss!!");
+                            System.out.println("Novo Nivel: "+novoNivel);
+
+
+
+                        }else if (novosPontos >= 12000.0 && p2.getNivel() == 2){
+                            novoNivel = p2.getNivel() - 1;
+                            crud.editarLinha("arquivo2",p2.getId(),2,Integer.toString(novoNivel));
+
+                            System.out.println("Pontos adquiritos: "+adquiridos);
+                            System.out.println("Total de pontos: "+novosPontos);
+                            System.out.println("Parabenss!!");
+                            System.out.println("Novo Nivel: "+novoNivel);
+
+
+                        }else if (novosPontos >= 30000.0 && p2.getNivel() == 1){
+                            novoNivel = p2.getNivel() - 1;
+                            crud.editarLinha("arquivo2",p2.getId(),2,Integer.toString(novoNivel));
+
+                            System.out.println("Pontos adquiritos: "+adquiridos);
+                            System.out.println("Total de pontos: "+novosPontos);
+                            System.out.println("Parabenss!!");
+                            System.out.println("Novo Nivel: Especial");
+
+
+                        }else{
+                            System.out.println("Pontos adquiritos: "+adquiridos);
+                            System.out.println("Total de pontos: "+novosPontos);
+
+                        }
+
+
+
+
+                    }
+
+
+
+//crud.adicionador("arquivo2","Yuta4",0,200.0,1000.0);
+        //crud.adicionador("arquivo10","Yuta5",0,200.0,1000.0);
+        //crud.ler("arquivo2");
+        //crud.excluirLinha("arquivo2","Getou");
+        List<Ataques> todosAtq = crud.listaAtq_pela_id(1,"arquivo2");
+
+        for (Ataques atq: todosAtq){
+            System.out.println("NomeAtq: "+atq.getNomeAtq());
+            System.out.println("\n");
+
+        }
+
+        /*
+        //array para colocar os participantes
+        ArrayList<Personagens> personagens = new ArrayList<>();
+        ArrayList<Ataques> ataques = new ArrayList<>();
+
+        personagens.add(new Personagens("Getou",0,1000.0,400.0));
+        personagens.add(new Personagens("Satoru",0,3000.0,400.0));
+        personagens.add(new Personagens("Yuta",0,6000.0,100.0));
+        personagens.add(new Personagens("Nanami",1,850.0,700.0));
+
+        ataques.add(new Ataques(1,"Uzumaki",200.5,100.0));
+        ataques.add(new Ataques(2,"Roxo",460.0,430.0));
+        ataques.add(new Ataques(3,"Rika",600.0,500.0));
+        ataques.add(new Ataques(4,"Cocusem",395.2,100.0));
+
+
+ personagens.add(new Personagens("Getou",0,1000.0,400.0,"Uzumaki",400.0,240.0));
+        personagens.add(new Personagens("Satoru",0,3000.0,400.0,"Roxo",460.0,430.0));
+        personagens.add(new Personagens("Yuta",0,6000.0,100.0,"Rika",600.0,500.0));
+        personagens.add(new Personagens("Nanami",1,850.0,700.0,"Cocusem",395.2,100.0));
+
+*/
+
+
+
+
+        /*
+
+        do {
+
+
+        for(int i = 0; i < personagens.size(); i++){
+            Personagens person = personagens.get(i);
+            ArrayList<Ataques> ataquesHab = person.getHabilidades();
+
+            for (int j = 0; j < ataques.size(); j++){
+                Ataques atq = ataques.get(j);
+                //Ataques atqExistentes = ataquesHab.get(j);
+
+
+                if(atq.getIdU() == person.getId()){
+                    person.setHabilidades(atq.getNomeAtq(),atq.getDano(),atq.getCustoEnergia());
+
+                }
+
+            }
+
+            System.out.println("Id: "+person.getId());
+            System.out.println("Nome: "+person.getNome());
+            for(Ataques at: ataquesHab){
+                System.out.println("Nome atq: "+at.getNomeAtq());
+
+            }
+
+            tot++;
+
+        }
+
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("selecione opcao");
+            int selec1 = scanner.nextInt();
+            selec = selec1;
+
+
+        if(selec == 1){
+
+            System.out.println("Nome do personagem:");
+            String nome = scanner.next();
+            System.out.println("Nivel do personagem:");
+            int nivel = scanner.nextInt();
+            System.out.println("Quantidade de Energia do personagem:");
+            double energia = scanner.nextDouble();
+            System.out.println("XP do personagem:");
+            double xp = scanner.nextDouble();
+
+
+            System.out.println("Nome do ataque do personagem:");
+            String nomeAtq = scanner.next();
+
+            int id = personagens.size();
+            System.out.println("Dano do Ataque:");
+            double dano = scanner.nextDouble();
+            System.out.println("Quantidade energia usada pelo ataque:");
+            double custo = scanner.nextDouble();
+
+
+            personagens.add(new Personagens(nome,nivel,energia,xp));
+
+            ataques.add(new Ataques(id,nomeAtq,dano,custo));
+
+            selec = 0;
+
+        }
+
+
+        }while (selec < 5);
+
+
+
+*/
+
+
+
+
+
+       // Path path = Path.of("D:\\javaIde\\java projetos\\projeto1\\dados");
+        //Files.createFile('D://javaIde//java projetos//projeto1//dados');
+
+        //String texto = "Vacalo ";
+       // Files.writeString(path, texto);
